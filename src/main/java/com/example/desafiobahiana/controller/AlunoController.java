@@ -40,7 +40,7 @@ public class AlunoController {
         aluno.setNome(alunoAtualizado.getNome());
         aluno.setIdade(alunoAtualizado.getIdade());
         aluno.setTurma(alunoAtualizado.getTurma());
-        aluno.setResponsavel(aluno.getResponsavel());
+        aluno.setResponsavel(alunoAtualizado.getResponsavel());
         return alunoRepository.save(aluno);
     }
 
